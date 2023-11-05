@@ -29,7 +29,7 @@ export class App extends Component {
         style={{
           margin: "0 auto",
           position: "relative",
-          top: "200px",
+          top: "100px",
         }}
       >
         <h1
@@ -37,9 +37,7 @@ export class App extends Component {
             textAlign: "center",
             fontSize: "40px",
           }}
-          sx={{
-            
-          }}
+          sx={{}}
         >
           Quote Generator
         </h1>
