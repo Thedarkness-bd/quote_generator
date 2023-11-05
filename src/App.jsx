@@ -41,7 +41,6 @@ export class App extends Component {
                 fontSize: "30px",
                 textAlign: "center",
                 color: "navy",
-                width: "80%",
                 margin: "0 auto",
               }}
               style={{
