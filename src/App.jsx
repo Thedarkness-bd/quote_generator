@@ -29,12 +29,16 @@ export class App extends Component {
         style={{
           margin: "0 auto",
           position: "relative",
-          top: "350px",
+          top: "200px",
         }}
       >
         <h1
           style={{
             textAlign: "center",
+            fontSize: "40px",
+          }}
+          sx={{
+            
           }}
         >
           Quote Generator
