@@ -28,19 +28,9 @@ export class App extends Component {
       <div
         style={{
           margin: "0 auto",
-          position: "relative",
-          top: "100px",
         }}
       >
-        <h1
-          style={{
-            textAlign: "center",
-            fontSize: "40px",
-          }}
-          sx={{}}
-        >
-          Quote Generator
-        </h1>
+        <h1 className="gen-heading">Quote Generator</h1>
 
         <Box sx={{ width: "100%", bgcolor: "background.paper" }}>
           <Box sx={{ my: 15, mx: 2 }}>
@@ -51,6 +41,8 @@ export class App extends Component {
                 fontSize: "30px",
                 textAlign: "center",
                 color: "navy",
+                width: "80%",
+                margin: "0 auto",
               }}
               style={{
                 fontFamily: "Jost",
@@ -66,6 +58,7 @@ export class App extends Component {
               style={{
                 fontSize: "20px",
               }}
+              variant="outlined"
             >
               Generate
             </Button>
